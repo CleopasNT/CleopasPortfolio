@@ -2,6 +2,49 @@ body
 {
     background-color: rgb(22, 32, 215);
     color: red;
-    text-align: left;
     font-family: Comic Sans MS;
+}
+
+header
+{
+    /*background-color: rgba(1, 10, 75, 0.5);*/
+    /*background-image: url("C:\Users\Cleop\OneDrive\Pictures\Screenshots\Screenshot 2024-06-18 203144.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.title
+{
+    text-align: left;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    text-align: left;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.page
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.profile-picture
+{
+    height: 200px;
+    width: 200px;
+    size: auto;
+    display: block;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 5px solid black;
+    border-radius: 50%;
 }
