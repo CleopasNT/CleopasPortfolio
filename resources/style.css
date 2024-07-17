@@ -38,13 +38,11 @@ nav
 
 .profile-picture
 {
-    height: 200px;
+    height: 225px;
     width: 200px;
-    size: auto;
-    display: block;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: auto;
-    border: 5px solid black;
+    position: relative;
+    bottom: 215px;
+    left: 710px;
+    border: 2.5px solid rgb(255, 0, 0);
     border-radius: 50%;
 }
