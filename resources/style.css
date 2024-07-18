@@ -28,6 +28,7 @@ nav
     text-align: left;
     font-size: 1.5em;
     font-style: italic;
+    position: relative;
 }
 
 .page
@@ -40,9 +41,9 @@ nav
 {
     height: 225px;
     width: 200px;
-    position: relative;
-    bottom: 215px;
-    left: 710px;
+    position: absolute;
+    top: 0;
+    right: 0;
     border: 2.5px solid rgb(255, 0, 0);
     border-radius: 50%;
 }
