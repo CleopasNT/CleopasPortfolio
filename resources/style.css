@@ -50,3 +50,14 @@ nav
     border: 2.5px solid rgb(255, 0, 0);
     border-radius: 50%;
 }
+
+main
+{
+    text-align: center;
+    font-size: 1em;
+}
+
+ul
+{
+    text-align: left;
+}
