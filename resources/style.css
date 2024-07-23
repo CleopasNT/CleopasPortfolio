@@ -22,7 +22,7 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover
   {
-    background: blue;
+    background: red;
   }
 /* for webpage */
 body
@@ -34,7 +34,7 @@ body
 }
 
 #navbar {
-    background-color: blue; /* Black background color */
+    background-color: blue; /* Blue background color */
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
