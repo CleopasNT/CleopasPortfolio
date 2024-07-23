@@ -8,8 +8,8 @@
 /* Track */
 ::-webkit-scrollbar-track
 {
-    box-shadow: inset 0 0 5px red; 
     border-radius: 0.625em;
+    background-color: transparent;
 }
    
   /* Handle */
@@ -30,6 +30,7 @@ body
     background-color: wheat;
     color: blue;
     font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
+    font-weight: 500;
 }
 
 #navbar {
@@ -93,7 +94,7 @@ nav
 
 #profile-picture
 {
-    height: 14.0625em;
+    height: 13em;
     width: 12.5em;
     position: absolute;
     top: 0;
@@ -140,6 +141,14 @@ ul
 ol
 {
     text-align: left;
+}
+
+#excursion
+{
+    width: 100%;
+    height: 18.75em;
+    border: 0.5px solid blue;
+    border-radius: 0.625em;
 }
 
 #main-footer
