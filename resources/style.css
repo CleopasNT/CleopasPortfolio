@@ -106,7 +106,7 @@ nav
 a:link
 {
     color: blue;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited
