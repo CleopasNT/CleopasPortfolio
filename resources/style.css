@@ -28,9 +28,33 @@
 body
 {
     background-color: wheat;
-    color: red;
-    font-family: Comic Sans MS;
+    color: blue;
+    font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
 }
+
+#navbar {
+    background-color: blue; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 1s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 0.9375em;
+    text-decoration: dashed;
+  }
+  
+  #navbar a:hover {
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+  }
 
 header
 {
@@ -69,8 +93,8 @@ nav
 
 #profile-picture
 {
-    height: 225px;
-    width: 200px;
+    height: 14.0625em;
+    width: 12.5em;
     position: absolute;
     top: 0;
     right: 0;
@@ -80,19 +104,19 @@ nav
 
 a:link
 {
-    color: red;
-    text-decoration: underline;
+    color: blue;
+    text-decoration: none;
 }
 
 a:visited
 {
-    color: red;
-    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:hover
 {
-    color: blue;
+    color: red;
     text-decoration: underline;
 }
 
@@ -109,6 +133,11 @@ h2
 }
 
 ul
+{
+    text-align: left;
+}
+
+ol
 {
     text-align: left;
 }
