@@ -59,10 +59,6 @@ body
 
 header
 {
-    /*background-color: rgba(1, 10, 75, 0.5);*/
-    /*background-image: url("C:\Users\Cleop\OneDrive\Pictures\Screenshots\Screenshot 2024-06-18 203144.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;*/
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -186,4 +182,50 @@ h3
 {
     height: 11.5em;
     width: 15em;
+}
+
+/* Dropdown part */
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: red;
+  }
+  
+  .dropdown {
+    position: sticky;
+    left: 0;
+    align-content: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover
+  {
+    background-color: red;
+}
+  
+  .dropdown:hover .dropdown-content
+  {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn
+  {
+    background-color: red;
 }
