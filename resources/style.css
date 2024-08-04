@@ -171,3 +171,13 @@ ol
     padding-left: 1em;
     padding-bottom: 1em;
 }
+
+h3
+{
+    text-align: left;
+}
+
+#conclusion
+{
+    text-align: center;
+}
