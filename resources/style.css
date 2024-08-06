@@ -132,6 +132,7 @@ h2
 ul
 {
     text-align: left;
+    list-style-type: none;
 }
 
 ol
@@ -178,6 +179,29 @@ h3
     text-align: center;
 }
 
+#codecademy
+{
+  align-content: center;
+  background-color: rgba(75, 255, 255, 0.544);
+  transition: 0.5s;
+}
+
+#codecademy h3
+{
+  text-align: center;
+}
+
+#codecademy:hover
+{
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+#codecademy-list
+{
+  text-align: center;
+}
+
 #certificates
 {
     height: 11.5em;
@@ -194,9 +218,8 @@ h3
   }
   
   .dropdown {
-    position: sticky;
-    left: 0;
-    align-content: left;
+    position: absolute;
+    float: left;
   }
   
   .dropdown-content {
@@ -206,6 +229,7 @@ h3
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding: 0.125em;
   }
   
   .dropdown-content a {

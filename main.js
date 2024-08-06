@@ -39,9 +39,9 @@ function scrollFunction()
 }
 
 //sort list part
-function sortList() {
+function sortListByName() {
   var list, i, switching, b, shouldSwitch;
-  list = document.getElementById("codecademy");
+  list = document.getElementById("codecademy-list");
   switching = true;
   /* Make a loop that will continue until
   no switching has been done: */
