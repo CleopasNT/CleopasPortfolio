@@ -214,6 +214,11 @@ h3
     text-align: center;
 }
 
+#codecademy h3
+{
+    text-align: center;
+}
+
 #codecademy:hover
 {
     background-color: rgb(26 31 56);
@@ -239,10 +244,21 @@ h3
     transition: 0.5s;
 }
 
+#unity h3
+{
+    text-align: center;
+}
+
 #unity:hover
 {
     background-color: rgb(153, 154, 155);
     color: black;
+}
+
+#unity-list
+{
+    text-align: center;
+    align-content: center;
 }
 
 /* Dropdown part */
