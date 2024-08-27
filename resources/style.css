@@ -208,22 +208,17 @@ h3
 
 #codecademy
 {
-  align-content: center;
-  background-color: rgb(26 31 56);
-  transition: 0.5s;
-  color: rgb(96, 254, 246);
-}
-
-#codecademy h3
-{
-  text-align: center;
+    align-content: center;
+    transition: 0.5s;
+    color: black;
+    text-align: center;
 }
 
 #codecademy:hover
 {
-  background-color: rgba(0, 0, 0, 0.1);
-  transition: 0.5s;
-  color: black;
+    background-color: rgb(26 31 56);
+    transition: 0.5s;
+    color: rgb(96, 254, 246);
 }
 
 #codecademy-list
@@ -235,6 +230,19 @@ h3
 {
     height: 11.5em;
     width: 15em;
+}
+
+#unity
+{
+    align-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#unity:hover
+{
+    background-color: rgb(153, 154, 155);
+    color: black;
 }
 
 /* Dropdown part */
