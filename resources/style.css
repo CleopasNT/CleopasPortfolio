@@ -17,20 +17,24 @@
   {
     background: blue; 
     border-radius: 0.625em;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover
   {
     background: red;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 /* for webpage */
 body
 {
-    background-color: wheat;
-    color: black;
+    background-color: rgb(237, 165, 44);
+    color: darkblue;
     font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
-    font-weight: 500;
+    font-weight: 520;
 }
 
 #navbar {
@@ -90,26 +94,27 @@ nav
 
 #profile-picture
 {
-    height: 13em;
-    width: 12.5em;
+    width: 13%;
+    height: 97%;
     position: absolute;
     top: 0;
     right: 0;
     border: 2.5px solid rgb(255, 0, 0);
     border-radius: 50%;
+    display:inline;
 }
 
 a:link
 {
-  color: black;
+  color: green;
   text-decoration: underline;
   transition-duration: 0.3s;
-  transition-behavior: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 a:visited
 {
-  color: black;
+  color: green;
   text-decoration: underline;
 }
 
@@ -118,7 +123,7 @@ a:hover
   color: blue;
   text-decoration: underline;
   transition-duration: 0.3s;
-  transition-behavior: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 main
@@ -141,38 +146,58 @@ ul
 
 #excursion
 {
-  background-color: black;
-  color: white;
+  background-color: rgb(237, 165, 44);
+  color: darkblue;
   transition: 0.5s;
-  transition-behavior: ease-in-out;
-}
-
-#excursion a
-{
-  color: white;
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-align: center;
 }
 
 #excursion a:hover
 {
   transition: 0.5s;
-  transition-behavior: ease-in-out;
+  transition-timing-function: ease-in-out;
+  color: rgb(237, 165, 44);
 }
 
 #excursion:hover
 {
-  background-color: wheat;
+  background-color: black;
   transition: 0.5s;
-  color: black;
+  color: white;
 }
 
-#excursion:hover a
+#pro-img
 {
-  color: black;
+    min-width: 25%;
+    max-width: 50%;
+    min-height: 50%;
+    max-height: 50%;
 }
 
-#excursion i
+#crazy-endless-driver
 {
-  display: inline;
+    background-color: rgb(237, 165, 44);
+    color: darkblue;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    align-content: center;
+    text-align: center;
+}
+
+#crazy-endless-driver a:hover
+{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    color: rgb(237, 165, 44);
+}
+
+#crazy-endless-driver:hover
+{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(111, 242, 221);
 }
 
 #main-footer
