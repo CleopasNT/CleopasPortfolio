@@ -106,7 +106,6 @@ nav
 
 a:link
 {
-  color: green;
   text-decoration: underline;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -114,7 +113,7 @@ a:link
 
 a:visited
 {
-  color: green;
+  color: currentColor;
   text-decoration: underline;
 }
 
@@ -198,6 +197,31 @@ ul
     transition: 0.5s;
     transition-timing-function: ease-in-out;
     background-color: rgb(111, 242, 221);
+}
+
+#animated-film
+{
+    background-color: rgb(237, 165, 44);
+    color: darkblue;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    align-content: center;
+    text-align: center;
+}
+
+#animated-film a:hover
+{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    color: white;
+}
+
+#animated-film:hover
+{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(92, 67, 174);
+    color: rgb(237, 165, 44);
 }
 
 #main-footer
