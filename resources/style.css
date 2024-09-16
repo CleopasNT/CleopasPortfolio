@@ -42,6 +42,14 @@ a:visited
     color: currentColor;
 }
 
+a:hover
+{
+    color: red;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
 #navbar {
     background-color: blue; /* Blue background color */
     position: fixed; /* Make it stick/fixed */
