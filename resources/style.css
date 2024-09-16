@@ -152,6 +152,23 @@ ul
   list-style-type: none;
 }
 
+#pi-hole
+{
+  /* background-color: rgb(237, 165, 44);
+  color: darkblue; */
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-align: center;
+}
+
+#pi-hole:hover
+{
+  background-color: rgb(211, 3, 3);
+  transition: 0.5s;
+  color: rgb(72, 255, 0);
+}
+
 #excursion
 {
   background-color: rgb(237, 165, 44);
