@@ -1,118 +1,112 @@
 /* for scrollbar */
 /* width */
-::-webkit-scrollbar
-{
-    width: 0.625em;
+::-webkit-scrollbar {
+  width: 0.625em;
 }
-  
+
 /* Track */
-::-webkit-scrollbar-track
-{
-    border-radius: 0.625em;
-    background-color: transparent;
+::-webkit-scrollbar-track {
+  border-radius: 0.625em;
+  background-color: transparent;
 }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb
-  {
-    background: blue; 
-    border-radius: 0.625em;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover
-  {
-    background: red;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 0.625em;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
 /* for webpage */
-body
-{
-    background-color: rgb(237, 165, 44);
-    color: darkblue;
-    font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
-    font-weight: 520;
+body {
+  background-color: rgb(237, 165, 44);
+  color: darkblue;
+  font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
+  font-weight: 520;
 }
 
-a:visited
-{
-    color: currentColor;
+a:visited {
+  color: currentColor;
 }
 
-a:hover
-{
-    color: red;
-    text-decoration: underline;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
+a:hover {
+  color: red;
+  text-decoration: underline;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #navbar {
-    background-color: blue; /* Blue background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 1s; /* Transition effect when sliding down (and up) */
-  }
-  
-  /* Style the navbar links */
-  #navbar a {
-    float: left;
-    display: block;
-    color: red;
-    text-align: center;
-    padding: 0.9375em;
-    text-decoration: dashed;
-  }
-  
-  #navbar a:hover {
-    background-color: yellow;
-    color: black;
-    text-decoration: underline;
-  }
-
-header
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    position: relative;
-    background-color: rgb(0 74 255 / 54%);
+  background-color: blue;
+  /* Blue background color */
+  position: fixed;
+  /* Make it stick/fixed */
+  top: -50px;
+  /* Hide the navbar 50 px outside of the top view */
+  width: 100%;
+  /* Full width */
+  transition: top 1s;
+  /* Transition effect when sliding down (and up) */
 }
 
-.title
-{
-    text-align: left;
-    font-size: 50px;
-    margin: 0px;
-    padding: 0px;
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 0.9375em;
+  text-decoration: dashed;
 }
 
-nav
-{
-    text-align: left;
-    font-size: 1.5em;
-    font-style: italic;
-    position: relative;
+#navbar a:hover {
+  background-color: yellow;
+  color: black;
+  text-decoration: underline;
 }
 
-#profile-picture
-{
-    width: 13%;
-    height: 97%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 2.5px solid rgb(255, 0, 0);
-    border-radius: 50%;
-    display:inline;
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(0 74 255 / 54%);
 }
 
-header a
-{
+.title {
+  text-align: left;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: left;
+  font-size: 1.5em;
+  font-style: italic;
+  position: relative;
+}
+
+#profile-picture {
+  width: 13%;
+  height: 97%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2.5px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  display: inline;
+}
+
+header a {
   text-decoration: underline;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -120,57 +114,49 @@ header a
 }
 
 
-header a:visited
-{
+header a:visited {
   color: red;
   text-decoration: underline;
 }
 
-header a:hover
-{
+header a:hover {
   color: blue;
   text-decoration: underline;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
 
-main
-{
+main {
   text-align: center;
   font-size: 1.3em;
 }
 
-h2
-{
+h2 {
   text-align: left;
   text-decoration: underline;
 }
 
-ul
-{
+ul {
   text-align: left;
   list-style-type: none;
 }
 
-#pi-hole
-{
+#pi-hole {
   /* background-color: rgb(237, 165, 44);
-  color: darkblue; */
+color: darkblue; */
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   align-content: center;
   text-align: center;
 }
 
-#pi-hole:hover
-{
+#pi-hole:hover {
   background-color: rgb(211, 3, 3);
   transition: 0.5s;
   color: rgb(72, 255, 0);
 }
 
-#excursion
-{
+#excursion {
   background-color: rgb(237, 165, 44);
   color: darkblue;
   transition: 0.5s;
@@ -179,121 +165,105 @@ ul
   text-align: center;
 }
 
-#excursion a:hover
-{
+#excursion a:hover {
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   color: rgb(237, 165, 44);
 }
 
-#excursion:hover
-{
+#excursion:hover {
   background-color: black;
   transition: 0.5s;
   color: white;
 }
 
-#excursion:hover a
-{
+#excursion:hover a {
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   color: white;
 }
 
-#excursion:hover a:hover
-{
+#excursion:hover a:hover {
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   color: red;
 }
 
-#pro-img
-{
-    min-width: 25%;
-    max-width: 50%;
-    min-height: 50%;
-    max-height: 50%;
+#pro-img {
+  min-width: 25%;
+  max-width: 50%;
+  min-height: 50%;
+  max-height: 50%;
 }
 
-#crazy-endless-driver
-{
-    background-color: rgb(237, 165, 44);
-    color: darkblue;
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    align-content: center;
-    text-align: center;
+#crazy-endless-driver {
+  background-color: rgb(237, 165, 44);
+  color: darkblue;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-align: center;
 }
 
-#crazy-endless-driver a:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: rgb(237, 165, 44);
+#crazy-endless-driver a:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: rgb(237, 165, 44);
 }
 
-#crazy-endless-driver:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    background-color: rgb(111, 242, 221);
+#crazy-endless-driver:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(111, 242, 221);
 }
 
-#crazy-endless-driver:hover a
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: darkblue;
+#crazy-endless-driver:hover a {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: darkblue;
 }
 
-#crazy-endless-driver:hover a:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: rgb(237, 165, 44);
+#crazy-endless-driver:hover a:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: rgb(237, 165, 44);
 }
 
-#animated-film
-{
-    background-color: rgb(237, 165, 44);
-    color: darkblue;
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    align-content: center;
-    text-align: center;
+#animated-film {
+  background-color: rgb(237, 165, 44);
+  color: darkblue;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-align: center;
 }
 
-#animated-film a:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: white;
+#animated-film a:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: white;
 }
 
-#animated-film:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    background-color: rgb(92, 67, 174);
-    color: rgb(237, 165, 44);
+#animated-film:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(92, 67, 174);
+  color: rgb(237, 165, 44);
 }
 
-#animated-film:hover a
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: rgb(237, 165, 44);
+#animated-film:hover a {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: rgb(237, 165, 44);
 }
 
-#animated-film:hover a:hover
-{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: darkblue;
+#animated-film:hover a:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: darkblue;
 }
 
-#main-footer
-{
+#main-footer {
   background-color: rgb(0 74 255 / 54%);
   text-align: center;
   /*font-size: 1em;*/
@@ -303,8 +273,7 @@ ul
   position: relative;
 }
 
-#copyright
-{
+#copyright {
   text-align: left;
   position: absolute;
   bottom: 0;
@@ -313,94 +282,79 @@ ul
   padding-bottom: 1em;
 }
 
-h3
-{
+h3 {
   text-align: left;
 }
 
-#conclusion
-{
+#conclusion {
   text-align: center;
 }
 
-#codecademy
-{
-    align-content: center;
-    transition: 0.5s;
-    color: black;
-    text-align: center;
-}
-
-#codecademy h3
-{
-    text-align: center;
-}
-
-#codecademy:hover
-{
-    background-color: rgb(26 31 56);
-    transition: 0.5s;
-    color: rgb(96, 254, 246);
-}
-
-#codecademy-list
-{
+#codecademy {
+  align-content: center;
+  transition: 0.5s;
+  color: black;
   text-align: center;
 }
 
-#certificates
-{
-    height: 11.5em;
-    width: 15em;
+#codecademy h3 {
+  text-align: center;
 }
 
-#unity
-{
-    align-content: center;
-    text-align: center;
-    transition: 0.5s;
+#codecademy:hover {
+  background-color: rgb(26 31 56);
+  transition: 0.5s;
+  color: rgb(96, 254, 246);
 }
 
-#unity h3
-{
-    text-align: center;
+#codecademy-list {
+  text-align: center;
 }
 
-#unity:hover
-{
-    background-color: rgb(153, 154, 155);
-    color: black;
+#certificates {
+  height: 11.5em;
+  width: 15em;
 }
 
-#unity-list
-{
-    text-align: center;
-    align-content: center;
+#unity {
+  align-content: center;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#unity h3 {
+  text-align: center;
+}
+
+#unity:hover {
+  background-color: rgb(153, 154, 155);
+  color: black;
+}
+
+#unity-list {
+  text-align: center;
+  align-content: center;
 }
 
 /* Dropdown part */
-  
-  .dropdown
-  {
-    position: absolute;
-    float: left;
-  }
-  
-  .dropdown-content
-  {
-    display: none;
-    min-width: 1em;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
-    z-index: 1;
-    padding: 0.125em;
-  }
-  
-  .dropdown:hover .dropdown-content
-  {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn
-  {
-    transition: 0.5s;
-  }
+
+.dropdown {
+  position: absolute;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  min-width: 1em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  padding: 0.125em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  transition: 0.5s;
+}
