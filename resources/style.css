@@ -27,10 +27,21 @@
 
 /* for webpage */
 body {
-  background-color: rgb(237, 165, 44);
-  color: darkblue;
+  background: linear-gradient(45deg, #000000, #0ff, #000000, #0ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
+  color: white;
   font-family: Helvetica, Arial, Georgia, Tahoma, Roboto;
   font-weight: 520;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 a:visited {
@@ -55,6 +66,9 @@ a:hover {
   /* Full width */
   transition: top 1s;
   /* Transition effect when sliding down (and up) */
+  background: linear-gradient(45deg, #00ff08, #0ff, #fbff00, #0ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
 }
 
 /* Style the navbar links */
@@ -78,7 +92,11 @@ header {
   padding-bottom: 10px;
   text-align: center;
   position: relative;
-  background-color: rgb(0 74 255 / 54%);
+  background-color: rgb(0, 33, 116);
+  color: rgb(245, 196, 34);
+  background: linear-gradient(45deg, #ff0000, #0ff, #1d3cec, #0ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
 }
 
 .title {
@@ -101,7 +119,7 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  border: 2.5px solid rgb(255, 0, 0);
+  border: 2.5px solid rgb(245, 196, 34);
   border-radius: 50%;
   display: inline;
 }
@@ -110,17 +128,11 @@ header a {
   text-decoration: underline;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
-  color: red;
-}
-
-
-header a:visited {
-  color: red;
-  text-decoration: underline;
+  color: rgb(245, 196, 34);
 }
 
 header a:hover {
-  color: blue;
+  color: red;
   text-decoration: underline;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -142,8 +154,6 @@ ul {
 }
 
 #pi-hole {
-  /* background-color: rgb(237, 165, 44);
-color: darkblue; */
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   align-content: center;
@@ -157,8 +167,6 @@ color: darkblue; */
 }
 
 #excursion {
-  background-color: rgb(237, 165, 44);
-  color: darkblue;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   align-content: center;
@@ -197,8 +205,6 @@ color: darkblue; */
 }
 
 #crazy-endless-driver {
-  background-color: rgb(237, 165, 44);
-  color: darkblue;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   align-content: center;
@@ -230,8 +236,6 @@ color: darkblue; */
 }
 
 #animated-film {
-  background-color: rgb(237, 165, 44);
-  color: darkblue;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   align-content: center;
@@ -263,14 +267,17 @@ color: darkblue; */
   color: darkblue;
 }
 
-#main-footer {
-  background-color: rgb(0 74 255 / 54%);
+footer {
+  background-color: rgb(0, 33, 116);
   text-align: center;
   /*font-size: 1em;*/
   height: 12.5em;
   width: 100%;
-  color: black;
+  color: rgb(245, 196, 34);
   position: relative;
+  background: linear-gradient(45deg, #ff0000, #0ff, #5d00ff, #0ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
 }
 
 #copyright {
@@ -293,7 +300,7 @@ h3 {
 #codecademy {
   align-content: center;
   transition: 0.5s;
-  color: black;
+  color: white;
   text-align: center;
 }
 
