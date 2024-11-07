@@ -153,6 +153,20 @@ ul {
   list-style-type: none;
 }
 
+#forza-vid {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-align: center;
+}
+
+#forza-vid:hover {
+  background-color: rgb(0, 33, 116);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: rgb(245, 196, 34);
+}
+
 #pi-hole {
   transition: 0.5s;
   transition-timing-function: ease-in-out;
@@ -202,6 +216,11 @@ ul {
   max-width: 50%;
   min-height: 50%;
   max-height: 50%;
+}
+
+#pro-vid {
+  width: 75%;
+  height: 75%;
 }
 
 #crazy-endless-driver {
