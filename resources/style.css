@@ -232,37 +232,6 @@ ul {
   height: 75%;
 }
 
-#crazy-endless-driver {
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
-  align-content: center;
-  text-align: center;
-}
-
-#crazy-endless-driver a:hover {
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
-  color: rgb(237, 165, 44);
-}
-
-#crazy-endless-driver:hover {
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
-  background-color: rgb(111, 242, 221);
-}
-
-#crazy-endless-driver:hover a {
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
-  color: darkblue;
-}
-
-#crazy-endless-driver:hover a:hover {
-  transition: 0.5s;
-  transition-timing-function: ease-in-out;
-  color: rgb(237, 165, 44);
-}
-
 footer {
   text-align: center;
   height: 12.5em;
