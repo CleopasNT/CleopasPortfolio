@@ -53,6 +53,10 @@ body {
   }
 }
 
+p {
+  text-align: center;
+}
+
 a:visited {
   color: currentColor;
 }
@@ -66,9 +70,7 @@ a:hover {
 
 #navbar {
   background-color: blue;
-  /* Blue background color */
   position: fixed;
-  /* Make it stick/fixed */
   top: -50px;
   /* Hide the navbar 50 px outside of the top view */
   width: 100%;
@@ -123,8 +125,8 @@ nav {
 }
 
 #profile-picture {
-  width: 13%;
-  height: 97%;
+  width: 10%;
+  height: 95%;
   position: absolute;
   top: 0;
   right: 0;
